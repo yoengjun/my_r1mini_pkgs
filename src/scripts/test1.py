@@ -68,7 +68,7 @@ move_goal(1.1, 2.8, 1)
 print('----find object position 1----')
 
 
-move_goal(0.2, 0.4, -1)
+move_goal(0.3, 0.4, -1)
 print('----position 2----')
 
 print('----go home----')
