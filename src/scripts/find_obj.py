@@ -78,6 +78,7 @@ print('----find object position 1----')
 rospy.Subscriber('darknet_ros/bounding_boxes', BoundingBoxes, zzz, queue_size=10)
 
 if find==1 :
+    print('----find----')
     print('----going home----')
     move_goal(0.3, 0.4, -1)
 
