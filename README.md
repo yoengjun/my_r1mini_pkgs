@@ -7,7 +7,9 @@ robot
 
 
 ssh r1mini@<your_robot_ip>
+
 roslaunch omo_r1mini_bringup omo_r1mini_robot.launch
+
 roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch
 
 computer
