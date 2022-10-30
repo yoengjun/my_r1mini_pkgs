@@ -64,12 +64,13 @@ goal.target_pose.header.frame_id = "map"
 
 
 
-move_goal(0.6, 2.5, 1)
+move_goal(0.7, 2.5, 1)
 print('----find object position 1----')
 #move_goal(0.7, 3.5, 1)
 #print('----find object position 2----')
 
-#move_goal(0, 0.0, -1)
+print('----go home----')
+move_goal(0, 0.0, -1)
 
 
 
@@ -80,7 +81,7 @@ print('----find object position 1----')
 
 
     
-rospy.Subscriber('darknet_ros/bounding_boxes', BoundingBoxes, new_bb, queue_size=10)
+#rospy.Subscriber('darknet_ros/bounding_boxes', BoundingBoxes, new_bb, queue_size=10)
 
 
 
