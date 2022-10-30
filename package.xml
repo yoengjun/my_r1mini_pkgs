@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>r1mini_nv_jb</name>
+  <version>1.0.0</version>
+  <description>r1mini_navigation package</description>
+
+
+  <maintainer email="whtkddus159@naver.com">josangyeon</maintainer>
+  <author email="axcer135@naver.com">baeyeongjun</author>
+  
+  <license>TODO</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>darknet_ros_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msg</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>omo_r1mini</exec_depend>
+  <exec_depend>darknet_ros</exec_depend>
+  <export>
+
+  </export>
+</package>
